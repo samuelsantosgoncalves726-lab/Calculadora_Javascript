@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora PHP + JSON</title>
+</head>
+<body>
+
+    <h2>Calculadora</h2>
+
+    <input type="number" step="any" id="num_a" placeholder="Primeiro número">
+
+    <select id="metodo">
+        <option value="adicionar">+</option>
+        <option value="subtrair">-</option>
+        <option value="multiplicar">*</option>
+        <option value="dividir">/</option>
+    </select>
+
+    <input type="number" step="any" id="num_b" placeholder="Segundo número">
+
+    <button type="button" id="btnCalcular">=</button>
+
+    <p>Resultado: <strong id="telaResultado"></strong></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
